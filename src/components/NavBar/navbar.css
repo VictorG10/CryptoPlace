@@ -46,8 +46,9 @@
 .nav-right button {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 10px;
-  padding: 10px 25px;
+  padding: 10px 20px;
   border-radius: 20px;
   font-size: 15px;
   font-weight: 500;
@@ -55,6 +56,7 @@
   background: white;
   border: none;
   cursor: pointer;
+  width: 125px;
 }
 
 .nav-right .btn-icon {
@@ -64,18 +66,22 @@
 @media (max-width: 900px) {
   .navbar {
     padding: 20px 8%;
+    gap: 25px;
   }
 
   .nav-right button {
     gap: 8px;
-    padding: 8px 18px;
+    /* padding: 8px 18px; */
+    padding: 8px 8px;
     font-size: 14px;
+    width: 98px;
   }
 }
 
 @media (max-width: 768px) {
   .navbar {
     padding: 20px 5%;
+    gap: 25px;
   }
 
   .navbar ul {
