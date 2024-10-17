@@ -60,3 +60,29 @@
 .nav-right .btn-icon {
   width: 13px;
 }
+
+@media (max-width: 900px) {
+  .navbar {
+    padding: 20px 8%;
+  }
+
+  .nav-right button {
+    gap: 8px;
+    padding: 8px 18px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    padding: 20px 5%;
+  }
+
+  .navbar ul {
+    display: none;
+  }
+
+  .nav-right button img {
+    width: 12px;
+  }
+}
